@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Artificial Intelligence</title>
+  <!--add an icon -->
+  <link rel="icon" href="img/ai.jpeg">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Part 1: Navbar Starter Code -->
+  <div class="navbar">
+    <ul style="margin-top: 50px">
+      <li><a href="#impact">Impact of AI</a></li>
+      <li><a href="#news">Recent AI News</a></li>
+      <li><button id="theme-button">Toggle Dark Mode</button></li>
+      <li><button id="reduce-motion">Reduce Motion</button></li>
+      <!-- Stretch Challenge: Drop Down -->
+    </ul>
+  </div>
+
+  <div class="header-container">
+    <a
+      href="https://www.accenture.com/us-en/insights/technology/technology-trends-2023?c=acn_glb_technologyvisiogoogle_13449935&n=psgs_0323&gclid=CjwKCAjwg4SpBhAKEiwAdyLwvIDhaYyiH-68xTuHKAhIUcaBOqiGHVR3JBh6Er4biJDV8emS4HMg7hoCt5IQAvD_BwE&gclsrc=aw.ds">
+      <h1>My Activism Project: The Future Of Artificial Intelligence</h1>
+    </a>
+
+    <a
+      href="https://www.techbusinessnews.com.au/opinion/could-artificial-intelligence-take-over-the-world/#:~:text=The%20Answer%2C%20No.,The%20notion%20is%20science%20fiction.">
+      <h1>Is AI Bound To Take Over the World?</h1>
+    </a>
+  </div>
+
+  <div class="container revealable">
+    <h3>What is Artificial Intelligence (AI)?</h3>
+    <div class="button-container">
+      <button type="button">My Plan</button>
+      <button type="button">Share Your Story</button>
+    </div>
+    
+  </div><br><br>
+
+  <div class="container revealable">
+    <iframe src="https://www.youtube.com/embed/a0_lo_GDcFw?si=0u7Q14tVmJOxeFid"></iframe>
+  </div>
+
+  <div class="topic-container revealable">
+    <h3>About My Topic</h3>
+    
+    <!--- About --->
+    <div class="about-container revealable">
+      <p>
+        We all know that nowadays, artificial intelligence has become a very hot topic in contempory society. From ChatGPT
+        to self-driving cars, we know that artificial intelligence has increased its prominence in our lives. However, what
+        does this mean for the future, especially for the future job market? Will more jobs be added or replaced?
+      </p>
+    </div>
+  </div>
+
+  <div class="impact-container revealable">
+    <!--- Impact --->
+    <h3 id="impact">Impact of Artificial Intelligence</h3>
+
+    <img src="img/picture1.jpeg" width="500" />
+    <h2 class='red_text-container'>Government spending on A.I.</h2>
+    <p>
+      Over the next couple of years, governments around the world are projected to allocate more of their annual budget to
+      A.I. research. In addition, with the A.I. industry boming, it is no wonder that companies are also rushing to invest
+      more time and money into A.I. projects.
+    </p>
+
+
+    <img src="img/picture2.png" width="500" />
+    <h2 class='red_text-container'>The job market</h2>
+    <p>
+      As you can see from the graph above, with A.I. technology on the rise, more jobs will be vulnerable to automation.
+      This leaves us the question: how will A.I. affect the future job market?
+    </p>
+  </div>
+
+  <div class="recentNews-container revealable">
+    <!--- News --->
+    <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
+    <h3 id="news">Recent News</h3>
+
+    <a href="https://www.usatoday.com/story/money/columnist/2023/08/22/should-i-be-worried-artificial-intelligence-will-replace-my-job/70592028007/"
+      target="_blank" rel="noopener" rel="noreferrer">
+      <article>
+        Will A.I. take over jobs?
+        <p>President and CEO of the Society for Human Resources Management, Johnny C. Taylor Jr. tackles your human
+          resources questions as part of a series for USA TODAY.</p>
+      </article>
+    </a>
+
+    <a href="https://www.forbes.com/sites/brianbushard/2023/07/11/will-ai-take-your-job-27-of-jobs-in-wealthy-countries-at-high-risk-report-says/?sh=10d95db11136"
+      target="_blank" rel="noopener" rel="noreferrer">
+
+      <article>
+        What jobs are most at risk?
+        <p>Brian Bushard, a Forbes writer, analyzes which jobs are most susceptible to A.I. dominance in the future.</p>
+
+      </article>
+    </a>
+  </div>
+
+  <!-- adds footer -->
+  <div class="footer">
+    <a
+      href="https://www.sas.com/en_us/insights/analytics/what-is-artificial-intelligence.html#:~:text=Artificial%20intelligence%20(AI)%20makes%20it,learning%20and%20natural%20language%20processing.">Learn
+      More</a><br>
+    <a href="kliao@terpmail.umd.edu">Contact</a>
+  </div>
+
+  <div class="petition revealable" id="petition">
+
+    <h2>Sign Our Petition 📢</h2>
+    <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+    <div class="petition-container">
+
+      <div class="petition-para">
+        Ready to join the mission to prevent AI from taking over our jobs or our lives in the future? If so, sign the petition below! We are a group of entrepreneurs passionate about bringing chance to the new world, and we are determined to spread the word to stop the rapid advancement of AI into our daily lives.
+      </div>
+
+      <div id="signatures">
+       
+      </div>
+
+    </div>
+
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <!-- inputs go here -->
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+      <label for="name">Hometown:</label>
+      <input type="text" id="hometown">
+      <label for="name">Email:</label>
+      <input type="text" id="email">
+      <br><br>
+    </form>
+    <button type="button" id="sign-now-button">Sign Now</button>
+
+    <!-- Modal -->
+    <div id="thanks-modal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div id="modal-text-container">
+          <p id="thanks-modal-content">
+            Are robots the future?
+          </p>
+          <!-- button here (stretch feature) -->
+          <button type="button" id="modal-button">Close</button>
+        </div>
+        <img src="img/robots.jpeg" id="modalImage" width="500" />
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--Javascript code -->
+  <script src="index.js">
+
+  </script>
+</body>
+
+</html>
